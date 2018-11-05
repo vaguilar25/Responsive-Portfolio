@@ -1,0 +1,50 @@
+/* Format portfolio images */
+
+.portfolio img {
+  height: 200px;
+  width: 200px;
+  margin: 15px;
+}
+
+.image {
+  position: relative;
+  margin: 0;
+  float: left;
+  transition: transform .2s ease-in-out;
+  
+}
+
+.image:hover {
+  
+  transform:  scale(1.5);
+ z-index: 1;
+}
+/* Format image ribbon */
+
+.ribbon {
+  background-color: #4aaaa5;
+  width: 200px;
+  height: 30px;
+  position: absolute;
+  left: 15px;
+  top: 160px;
+  margin: 0;
+  color: white;
+  text-align: center;
+  font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+.ribbon:hover {
+  -ms-transform: rotate(-5deg);
+  -webkit-transform: rotate(-5deg);
+  -moz-transform: rotate(-5deg);
+  -o-transform: rotate(-5deg);
+  transform: rotate(-5deg);
+}
+
+/* Format of the next line image */
+
+.right {
+  float: left;
+  clear: both;
+}
