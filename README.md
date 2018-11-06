@@ -37,14 +37,11 @@ Build a professional portfolio site using HTML/CSS/Media Queries
            Modify the content of the page.
     ```
 
-```
 
 ## Built With
 
 * [Visual Studio Code](https://code.visualstudio.com/) - The editor used
 * [GitHub](https://github.com/) - Version Control
-
-
 
 
 ## Versioning
